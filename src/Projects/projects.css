@@ -1,0 +1,33 @@
+.Projects
+{
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 3s;
+}
+
+.ProjectsGreeting
+{
+    color: rgb(255, 255, 255); 
+    font-size: 7vw; 
+    font-family: "system-ui";
+}
+
+.ProjectsDisplay
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectsRow
+{
+    display: flex;
+    align-items: center;
+}

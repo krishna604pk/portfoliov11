@@ -1,0 +1,74 @@
+.navigation
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 5vw;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+nav a
+{
+    text-decoration: none;
+}
+
+.buttonForNavigation
+{
+    width: 20%;
+    height: 80%;
+    background-color: black;
+    color: white;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vw;
+}
+
+.buttonForNavigation:hover
+{
+    background-color: greenyellow;
+    color: black;
+}
+
+.textInNavigation
+{
+    width: 32%;
+    height: 100%;
+    padding-bottom: 0.8%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.textInNavigation p
+{
+    text-align: left;
+    padding-left: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8vw;
+}

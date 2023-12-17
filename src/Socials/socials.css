@@ -1,0 +1,32 @@
+.Social
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0.5vw;
+}
+
+.IconLinks
+{
+    margin-left: 5vw;
+}
+
+.contactDetails
+{
+    display: flex;
+    margin-right: 5vw;
+}
+
+.contactDetails p:first-child
+{
+    margin-right: 4vw;
+}
+
+.IconsImage
+{
+    width: 2vw;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
