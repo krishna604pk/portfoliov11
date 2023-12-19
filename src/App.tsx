@@ -11,8 +11,10 @@ import Projects from "./Projects/projects"
 import "./Projects/projects.css"
 import Socials from "./Socials/socials"
 import "./Socials/socials.css"
-
-
+import Me from "./Images/Me.png"
+import Facebook from "./Images/Facebook.png"
+import instagram from "./Images/instagram.png"
+import linkedin from "./Images/linkedin.png"
 
 const links = [
   {href: "#introduction", text: "Introduction"},
@@ -37,7 +39,7 @@ function App() {
       {/* This is my Introduction */}
 
       <Introduction
-        picURL="../Images/Me.png"
+        picURL={Me}
         altText="Picture of Krishna Prabu"
         greeting="Hi,"
         firstLine="I'm Krishna Prabu"
@@ -62,13 +64,13 @@ function App() {
       <Socials
         href1="https://www.facebook.com/profile.php?id=6155048141493"
         alt1="FaceBook"
-        src1="../Images/Facebook.png"
+        src1={Facebook}
         href2="https://www.instagram.com/krishna_pk_kp/"
         alt2="Instagram"
-        src2="../Images/instagram.png"
+        src2={instagram}
         href3="https://www.linkedin.com/in/krishna-prabu-2a368a28b/"
         alt3="LinkedIn"
-        src3="../Images/linkedin.png"
+        src3={linkedin}
         email="EMAIL - krishna604@gmail.com"
         address="ADDRESS - C-216, LBS Hall of Residence, IIT Kharagpur"
         />
