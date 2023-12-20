@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/portfoliov11/static/css/main.12e277aa.css",
-    "main.js": "/portfoliov11/static/js/main.773619ce.js",
+    "main.css": "/portfoliov11/static/css/main.81a47f92.css",
+    "main.js": "/portfoliov11/static/js/main.2c455f7c.js",
     "static/js/787.42ff7577.chunk.js": "/portfoliov11/static/js/787.42ff7577.chunk.js",
     "static/media/instagram.png": "/portfoliov11/static/media/instagram.c4ebf7651fcaeeb3fb2e.png",
+    "static/media/Background3.jpeg": "/portfoliov11/static/media/Background3.a9047560621784a4b680.jpeg",
     "static/media/Me.png": "/portfoliov11/static/media/Me.28c10a50d46db66585b4.png",
+    "static/media/Background4.jpeg": "/portfoliov11/static/media/Background4.ad3dffec1a8c275c7d39.jpeg",
+    "static/media/WoodTexture.jpg": "/portfoliov11/static/media/WoodTexture.3c8dd91f2ad57c53194c.jpg",
+    "static/media/Black.jpg": "/portfoliov11/static/media/Black.cabfa9f0f01d07ba076e.jpg",
     "static/media/Facebook.png": "/portfoliov11/static/media/Facebook.deca554bdc65dff5f5a3.png",
     "static/media/linkedin.png": "/portfoliov11/static/media/linkedin.ba12e576bd146900c20a.png",
+    "static/media/MarbleTexture.jpeg": "/portfoliov11/static/media/MarbleTexture.fdfaaeff973f407bbc29.jpeg",
     "index.html": "/portfoliov11/index.html",
-    "main.12e277aa.css.map": "/portfoliov11/static/css/main.12e277aa.css.map",
-    "main.773619ce.js.map": "/portfoliov11/static/js/main.773619ce.js.map",
+    "main.81a47f92.css.map": "/portfoliov11/static/css/main.81a47f92.css.map",
+    "main.2c455f7c.js.map": "/portfoliov11/static/js/main.2c455f7c.js.map",
     "787.42ff7577.chunk.js.map": "/portfoliov11/static/js/787.42ff7577.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12e277aa.css",
-    "static/js/main.773619ce.js"
+    "static/css/main.81a47f92.css",
+    "static/js/main.2c455f7c.js"
   ]
 }
