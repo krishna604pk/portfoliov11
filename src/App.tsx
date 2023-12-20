@@ -9,12 +9,15 @@ import AboutMe from "./About Me/aboutme"
 import "./About Me/aboutme.css"
 import Projects from "./Projects/projects"
 import "./Projects/projects.css"
+import Education from "./Education/education"
+import "./Education/education.css"
 import Socials from "./Socials/socials"
 import "./Socials/socials.css"
 import Me from "./Images/Me.png"
 import Facebook from "./Images/Facebook.png"
 import instagram from "./Images/instagram.png"
 import linkedin from "./Images/linkedin.png"
+import { useState } from "react"
 
 const links = [
   {href: "#introduction", text: "Introduction"},
@@ -26,6 +29,11 @@ const links = [
 ];
 
 function App() {
+
+  const [heading, setHeading] = useState("Vikas the Concept School")
+  const [para1, setPara1] = useState("I studied here from my LKG till 10th grade.")
+  const [para2, setPara2] = useState("I credit it with my overall personality growth, as it provided holistic education.")
+
   return (
     <div className="body">
 
@@ -58,6 +66,29 @@ function App() {
       {/* These are the projects I have worked on */}
 
       <Projects />
+
+      {/* THese are my educational education */}
+      
+      <Education
+      heading={heading}
+      para1={para1}
+      para2={para2}
+      onClick1={() => {
+        setHeading("Vikas the Concept School");
+        setPara1("I studied here from my LKG till 10th grade.")
+        setPara2("I credit it with my overall personality growth, as it provided holistic education.")
+      }}
+      onClick2={() => {
+        setHeading("FIITJEE Miyapur");
+        setPara1("I have studied here for my +1 and +2 (11th and 12th)")
+        setPara2("I credit it with recognizing and helping me achieve my potential, to land a cse seat in my dream IIT.")
+      }}
+      onClick3={() => {
+        setHeading("IIT Kharagpur");
+        setPara1("I am presently studying here, till 2028. I started in 2023.")
+        setPara2("I am immensely excited to live and learn in my dream campus among all the IITs.")
+      }}
+      />
 
       {/* This is my footer */}
 

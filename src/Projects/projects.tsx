@@ -1,14 +1,19 @@
 import Card from "../card data/card";
 import { useState } from "react";
+import Black from "../Images/Black.jpg"
+import WoodTexture from "../Images/WoodTexture.jpg"
+import MarbleTexture from "../Images/MarbleTexture.jpeg"
+import Background3 from "../Images/Background3.jpeg"
+import Background4 from "../Images/Background4.jpeg"
 
 function Projects()
 {
     const backgroundURLs: {[key: number]: string } = {
-        0: "./Images/Black.jpg",
-        1: "./Images/WoodTexture.jpg",
-        2: "./Images/MarbleTexture.jpeg",
-        3: "./Images/Background3.jpeg",
-        4: "./Images/Background4.jpeg"
+        0: Black,
+        1: WoodTexture,
+        2: MarbleTexture,
+        3: Background3,
+        4: Background4
     }
     
     const [background, setBackground] = useState(0);

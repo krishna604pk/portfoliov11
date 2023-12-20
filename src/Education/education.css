@@ -1,0 +1,52 @@
+.education
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displayEducation
+{
+    width: 50vw;
+    height: 30vw;
+    background-color: white;
+    margin-bottom: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    border: solid;
+    border-color: gray;
+    border-radius: 0.5vw;
+    border-width: 1vw;
+}
+
+.displayEducation p:first-child
+{
+    font-size: 4vw;
+}
+
+.displayEducation p:nth-child(2)
+{
+    font-size: 2vw;
+}
+
+.displayEducation p:nth-child(3)
+{
+    font-size: 2vw;
+}
+
+.navigationEducation button
+{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 1vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    background-color: white;
+}
+
+.navigationEducation button:hover
+{
+    background-color: greenyellow;
+}
